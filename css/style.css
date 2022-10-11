@@ -36,7 +36,11 @@ header.title-box h1{
     padding-left: 15px;
     
 }
+ul {
+    list-style-type: none;
+  }
 
+ 
 #add-task{
     background-color: rgb(0, 132, 255);
     color: white;
