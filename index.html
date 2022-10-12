@@ -5,17 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300;1,500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <header class="title-box">
-        <img src="./img/Logo.png" alt="Logo">
+        <img class="logo" src="./img/Logo.png" alt="Logo">
         <h1 class="main-title">Toboolist</h1>
     </header>
 
     <main>
-        <article>
+
+        <div class="container">
+
             <section class="upper-box">   <!--  sezione ricerca -->
 
                 <div class="container-button">
@@ -24,62 +30,53 @@
                 </div>         
             </section>
 
-            <section class="list-box">       <!--  sezione lista -->
+            <div #separatore></div>
 
-                <ul>
-                    <li class="li-section">
-                    <span>&#9660</span>  New Task
-                        <ul>
-                            <li>
-                               <span class="done">&#x2714</span> Quarterly Newsletter <span class="specification editorial">Editorial</span>
-                            </li>                         
-                        </ul>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li class="li-section">
-                        <span>&#9660</span> Today
-                        <ul>
-                            <li>
-                                <span class="done">&#x2714</span> Recruting Blog Post <span class="specification editorial" >Editorial</span>
-                            </li>
-                            <li>
-                                <span class="done">&#x2714</span> Mobile app launch <span class="specification q1">Q1 Goals</span> 
-                            </li>
-                            <li>
-                                <span class="not-done">&#x2718</span>  Interview John H. <span class="specification recruting">Recruting</span>
-                            </li> 
-                            <li>
-                                <span class="done">&#x2714</span> Summit update to mobile storefront <span class="specification mobile">Mobile</span>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="li-section">
-                        <span>&#9660</span> Upcoming
-                        <ul>
-                            <li>
-                                <span class="not-done">&#x2718</span> Schedule Meeting with Alex 
-                            </li>
-                            <li>
-                                <span class="done">&#x2714</span> Homepage Refresh <span class="specification website">Website</span>
-                            </li>
-                            <li>
-                                <span class="done">&#x2714</span> Onboard new Sales team member <span class="specification sales">Sales</span>
-                            </li>
-                            <li>
-                                <span class="done">&#x2714</span> Review editor calendar <span class="specification editorial">Editorial</span>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+            <section class="list-box"> 
                 
+                <span>&#9660</span><h2>New Task</h2>
+
+                    <ul>
+                        <li class="li-section">                                         
+                            <span class="done">&#x2714</span>Quarterly Newsletter<span class="tag editorial">Editorial</span>
+                        </li>                            
+                    </ul>
+                        
+                <span>&#9660</span><h2>Today</h2>            
+                    <ul>
+                        <li class="li-section">
+                            <span class="done">&#x2714</span> Recruting Blog Post <span class="tag editorial" >Editorial</span>
+                        </li>
+                        <li>
+                            <span class="done">&#x2714</span> Mobile app launch <span class="tag q1">Q1 Goals</span> 
+                        </li>
+                        <li>
+                            <span class="not-done">&#x2718</span>  Interview John H. <span class="tag recruting">Recruting</span>
+                        </li> 
+                        <li>
+                            <span class="done">&#x2714</span> Summit update to mobile storefront <span class="tag mobile">Mobile</span>
+                        </li>
+                    </ul>
+                        
+                <span>&#9660</span><h2>Upcoming</h2>             
+                    <ul>
+                        <li class="li-section">
+                            <span class="not-done">&#x2718</span> Schedule Meeting with Alex 
+                        </li>
+                        <li>
+                            <span class="done">&#x2714</span> Homepage Refresh <span class="tag website">Website</span>
+                        </li>
+                        <li>
+                            <span class="done">&#x2714</span> Onboard new Sales team member <span class="tag sales">Sales</span>
+                        </li>
+                        <li>
+                            <span class="done">&#x2714</span> Review editor calendar <span class="tag editorial">Editorial</span>
+                        </li>
+                    </ul>                                  
 
             </section>
 
-        </article>
+        </div>
     </main>
     
 </body>

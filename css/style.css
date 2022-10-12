@@ -2,69 +2,84 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Nunito', sans-serif;
 }
 
 body{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/HD_transparent_picture.png");
+    background-color: rgb(236, 241, 241);
+}
+h2{
+    display: inline-block;
+}
+li{
+    line-height: 2;
 }
 .title-box{
-    width: 100%;
-    height: 15%;
+    height: 4.5rem;
     background-color: white;
-    padding: 10px 5px 10px 10px;
-    margin-bottom: 20px;
+    padding-top: 0.5rem;
+    margin-bottom: 30px;
+}
+.logo{
+    vertical-align: middle;
+    padding-left: 15px;
 }
 
 header.title-box h1{
     display: inline-block;
-    vertical-align:top;
+    vertical-align:middle;
+    padding-left: 3px;
 }
-
+.container{
+    margin: 3rem auto;
+    width: 70%;
+    height: 35rem;
+    background-color: white;
+}
 
 .container-button{
     margin-left: 60px;
     margin-right: 60px;
     background-color: white;
-}
+} 
 
 .button{
+    margin-top: 20px;
+    margin-bottom: 15px;
     border-radius: 10%;
-    padding: 5px;
+    padding: 5px;  
 }
-
+section h2{
+    margin-left: 5px;
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+li{
+    margin-right: 5px;
+}
 .list-box{
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 20px;
-    padding-left: 15px; 
     background-color: white;   
 }
-
-ul {
-    list-style-type: none;
-    margin-bottom: 8px;
-  }
-
-li{
-    line-height: 2;
-}
-
-.specification{
-    background-color: blue;
-    color: white;
-    margin-left: 10px;
-    font-size: small;
-    border-radius: 5%;  
-    padding: 1px;
-} 
-
 .done , .not-done{ 
     border: 1px solid;
     border-radius: 100%;    
     padding: 1.5px;
-    font-size: small;
+    margin-right: 10px;
+    
 }
+.tag{
+    color: white;
+    margin-left: 10px;
+    font-size: small;
+    border-radius: 7%;  
+    padding: 3px 7px;
+} 
 
 .done{
     color: rgb(13, 163, 13);
@@ -95,6 +110,10 @@ li{
 .sales{
     background-color: greenyellow;
 }
+#separatore{
+    height: 0.5rem;
+}
+
 #add-task {
     background-color: rgb(0, 132, 255);
     color: white;
@@ -106,4 +125,5 @@ li{
     border: 1px solid lightgrey;
     color: lightgrey;
 }
+
 
